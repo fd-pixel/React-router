@@ -17,7 +17,7 @@ const Details = (props) => {
   return (
     <div className="main">
       <div className="container">
-        <h2>Details of {id} </h2>
+        <h2>Details of {id}. Person </h2>
         Name: <p>{persons?.name}</p>
         Website: <p>{persons?.website}</p>
         E-mail: <p>{persons?.email}</p>
