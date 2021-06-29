@@ -25,7 +25,7 @@ const Details = (props) => {
           alt="pic"
           src={`https://avatars.dicebear.com/v2/avataaars/${id}.svg`}
         />
-        <button onClick={() => history.push("/")}>Go Home</button>
+        <button onClick={() => history.push("/React-router")}>Go Home</button>
       </div>
     </div>
   );
